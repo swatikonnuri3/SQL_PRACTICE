@@ -6,4 +6,5 @@ CREATE TABLE students(
     age INT NOT NULL
 );
 INSERT INTO students VALUES(1,"swati",21);  
-INSERT INTO students VALUES(2,"sneha",25);  
+INSERT INTO students VALUES(2,"sneha",25);
+DROP TABLE students;  
