@@ -54,3 +54,5 @@ DELIMITER ;
 CALL get_employee_by_dept('IT', 55000);
 --DROP PROCEDURE
 DROP PROCEDURE get_all_employees;
+--EXECUTE (CALL)
+CALL get_employee_by_dept('Finance', 40000);

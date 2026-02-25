@@ -46,3 +46,8 @@ SELECT *
 FROM students
 ORDER BY marks DESC
 LIMIT 3;
+---Skip first 2 records and fetch next 2
+SELECT *
+FROM students
+ORDER BY marks DESC
+LIMIT 2 OFFSET 2;
